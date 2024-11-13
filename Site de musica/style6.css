@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #007bff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.playlist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.playlist li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.playlist li:hover {
+    background-color: #f1f1f1;
+}
